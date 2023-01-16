@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{fc40e268-6f47-46b8-aa9b-7d9bea098f33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubSystem">
+      <UniqueIdentifier>{575b588b-9d14-4d64-b8cd-95003588e2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubSystem\Graphics">
+      <UniqueIdentifier>{1dbf7ca6-96d5-4802-800a-4b7cd7074692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{47285562-f28a-4af8-b8d0-061cd908c733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubSystem\Physics">
+      <UniqueIdentifier>{08b277fe-e162-444f-8f49-467d661f101b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{1347c7cb-a0a4-4116-b6fe-9fda76e67b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication">
+      <UniqueIdentifier>{901ec010-2621-4686-9a28-adc38c9e4728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubSystem\Input">
+      <UniqueIdentifier>{5d15d922-657a-4226-b226-a50e8445d6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Player">
+      <UniqueIdentifier>{3a9a98b7-4303-46c9-afa9-e20602ca3f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemy">
+      <UniqueIdentifier>{25312ea3-3dcb-4b47-a221-27a5c83ca245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Bullet">
+      <UniqueIdentifier>{ebe5161f-6215-49a8-a316-c695fe6ca9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubSystem\Data">
+      <UniqueIdentifier>{c5b21485-d8f1-4751-874a-04b42cd526ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubSystem\Input\KeyBoard">
+      <UniqueIdentifier>{3ab6a535-7ab4-4ccb-88d1-d690e01f4e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubSystem\Sound">
+      <UniqueIdentifier>{15abc1cd-1ae5-4cd8-bff1-1e98a219a4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubSystem\Score">
+      <UniqueIdentifier>{3b5e6276-3adc-474c-8997-72b65e733523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Wall">
+      <UniqueIdentifier>{66d6ac11-6505-4c69-b137-63bc919b9eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubSystem\UI">
+      <UniqueIdentifier>{c9b92bfc-45c3-4214-954b-ea5e4cbcc1d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{91e18746-6798-45d0-a9f6-9ade7e65252d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graphic_Sub.cpp">
+      <Filter>SubSystem\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SubSystem_Manager.cpp">
+      <Filter>SubSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication.cpp">
+      <Filter>GameApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="Input_Sub.cpp">
+      <Filter>SubSystem\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GameObject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Data_Sub.cpp">
+      <Filter>SubSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoard.cpp">
+      <Filter>SubSystem\Input\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="RectCollider.cpp">
+      <Filter>SubSystem\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound_Sub.cpp">
+      <Filter>SubSystem\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>GameObject\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="Score_Sub.cpp">
+      <Filter>SubSystem\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Sub.cpp">
+      <Filter>SubSystem\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics_Sub.cpp">
+      <Filter>SubSystem\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EXTERN\imgui\imgui.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EXTERN\imgui\imgui_draw.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EXTERN\imgui\imgui_tables.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EXTERN\imgui\imgui_widgets.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EXTERN\imgui\imgui-SFML.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SubSystem_Manager.h">
+      <Filter>SubSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics_Sub.h">
+      <Filter>SubSystem\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Input_Sub.h">
+      <Filter>SubSystem\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GameObject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Data_Sub.h">
+      <Filter>SubSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoard.h">
+      <Filter>SubSystem\Input\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic_Sub.h">
+      <Filter>SubSystem\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="RectCollider.h">
+      <Filter>SubSystem\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound_Sub.h">
+      <Filter>SubSystem\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>GameObject\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="Score_Sub.h">
+      <Filter>SubSystem\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Sub.h">
+      <Filter>SubSystem\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EXTERN\imgui\imconfig.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EXTERN\imgui\imconfig-SFML.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EXTERN\imgui\imgui.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EXTERN\imgui\imgui_internal.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EXTERN\imgui\imgui-SFML.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EXTERN\imgui\imgui-SFML_export.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EXTERN\imgui\imstb_rectpack.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EXTERN\imgui\imstb_textedit.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EXTERN\imgui\imstb_truetype.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
